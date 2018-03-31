@@ -1,0 +1,6 @@
+obj/*
+*.bkp
+*~
+dist/*.img
+dist/*.list
+dist/*.map
