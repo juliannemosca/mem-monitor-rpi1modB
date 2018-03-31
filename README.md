@@ -1,5 +1,3 @@
-Memory monitor for the RPi 1, Model B
-
 # Memory Monitor for the Raspberry Pi 1 Model B
 
 A very simple memory monitor written in ARM assembly language. Very much inspired by Wozniak's 1976 original memory monitor for the Apple 1 (WOZ Monitor), it even uses the same font for that extra retro feel. :)
@@ -113,11 +111,17 @@ The project can then be build by running the build script `build.sh`. There shou
 The project's directory tree is organized as follows:
 
 -`/dist`: contains the distributable files.
+
 -`/docs`: additional external documentation related to the project.
+
 -`/ext`: external resources, contains the binary to produce the Signetics 2513 character generator font.
+
 -`/lib`: library dependencies, contains the **csud** library for the keyboard/mouse USB driver.
+
 -`/obj`: object files are put here by the build script. The content of this directory is ignored.
+
 -`/src`: the project sources.
+
 -`/`: build and linker scripts.
 
 ### Organization of sources
