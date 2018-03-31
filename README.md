@@ -2,6 +2,8 @@
 
 A very simple memory monitor written in ARM assembly language. Very much inspired by Wozniak's 1976 original memory monitor for the Apple 1 (WOZ Monitor), it even uses the same font for that extra retro feel. :)
 
+![Alt text](https://user-images.githubusercontent.com/19293817/38163367-4a65d36a-34f3-11e8-97b6-84c344a294db.png "RUN !")
+
 ## Usage
 
 There are 3 types of operations available, with different input options, those are Read, Write and Run.
